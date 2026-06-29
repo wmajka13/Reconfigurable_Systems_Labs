@@ -1,0 +1,67 @@
+################################################################################
+#  Fuzja: Szablon iDoka + poprawki pod nowe Vivado/Vitis
+################################################################################
+
+# log files
+*.log
+*.jou
+*.rpt
+*.vdi
+
+# bitstream
+*.bit
+*.bin
+*.mcs
+*.svf
+*.image
+*.pdi
+*.xsa
+
+# netlist & SDF
+*.edf
+*.edif
+*.vn
+*.vm
+*.sdf
+
+# sim dump
+*.vcd
+*.saif
+*.tcf
+*.wdb
+
+# C-files / Vitis
+*.elf
+*.a
+*.sa
+*.so
+*.lib
+*.o
+.metadata/
+RemoteSystemsTempFiles/
+
+# dirs (Vivado)
+*.runs/
+*.sim/
+*.cache/
+*.hw/
+*.ip_user_files/
+*.gen/
+**/*.gen/
+.Xil/
+
+# others
+unisims
+fsm_encoding.os
+tab_*/
+webtalk.*
+vivado_pid*.str
+hs_err_pid*
+xelab.*
+xsim.*
+xvlog.*
+*.backup.*
+*.debug
+
+# checkpoint files
+*.dcp

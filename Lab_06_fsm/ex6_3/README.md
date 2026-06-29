@@ -1,0 +1,3 @@
+This task involves verifying a 10-input OR gate module in Verilog. First, download the provided or_gate.v file, create a new Vivado project, and include the file. Next, design an automated testbench to thoroughly test whether the gate operates correctly.
+
+If the module produces incorrect outputs, the testbench must automatically log these errors into a text file. You need to identify and record the specific input combinations that cause these incorrect results. Finally, you are asked to analyze the failures and attempt to deduce why the gate is producing the wrong outputs for those specific cases.
